@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.picture {
+    float: left;
+    width: 170px;
+    border-radius: 20%;
+    margin: 20px 50px;
+    border: 10px solid #c5a88c;
+}
+
+body {
+    background-color: #cdceae;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: #544f4c;
+}
+
+h4 {
+    color: white;
+    padding: 20px;
+}
+
+.cimabaixo {
+    padding: 30px;
+    background-color: #cdceae;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #cdceae;
+    color: #544f4c;
+    text-align: center;
+}
+
+.perfil {
+    background-color: #f0ebd8;
+    margin: auto;
+    width: 50%;
+    border: 30px solid #544f4c;
+    padding: 10px;
+    text-align: center;
+    color: #544f4c;
+
+}
+
+.perfil2 {
+    background-color: #f0ebd8;
+    margin: auto;
+    width: 50%;
+    border: 30px solid #f0ebd8;
+    padding: 10px 0px 40px 20px;
+    text-align: center;
+    color: #544f4c;
+    display: flex;
+
+}
+
+.perfil3 {
+    background-color: #f0ebd8;
+    width: 50%;
+    border: 30px solid #544f4c;
+    padding: 10px;
+    text-align: center;
+    color: #544f4c;
+
+}
+
+p {
+    line-height: 25px;
+    padding: 50px;
+    text-align: justify;
+    margin: 0px 50px;
+
+}
+
+.hardskills {
+    /* padding: 40px;
+    background-color: #544f4c;
+    width: 200px;
+    color: white; */
+
+    background:#544f4c;
+    width:400px;
+    height:150px;
+    color: white;
+    margin: 20px;
+
+}
+
+
+.links {
+    padding: 50px;
+    text-align: center;
+}
+
+li {
+    background-color: #c5a88c;
+    list-style-type: none;
+    line-height: 25px;
+}
+
+ul li:hover {
+    background-color: #f0ebd8;
+    color:black;
+}
+
+a {
+    text-decoration: none;
+    background-color: #c5a88c;   
+    padding: 15px 20px;
+    width: 20px;
+    color:black;
+
+}
+
+a:hover {
+    background-color: #cdceae;
+    border: 5px solid; 
+    font-weight: bolder;
+    color: #544f4c;
+}
